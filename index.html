@@ -1,0 +1,229 @@
+<!-- Design a responsive website by use of modal, scrollspy, popover and perform collaboration on github -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Information System</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://raw.githack.com/peet86/Ratyli/master/jquery.ratyli.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+  <!-- Custom CSS -->
+  <style>
+  .first-section {
+    background-color: white;
+  }
+  .section {
+    padding: 60px 0 0px;
+  }
+  </style>
+
+  <body>
+  <!-- carousel Header CSS -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/hotels/dubai/burj-al-arab-jumeirah/hero/burj-al-arab-profile-exterior_6-4_landscape.jpg?h=800&w=1200" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://luxuriate.life/wp-content/uploads/2021/03/Burj-Al-Arab-Jumeirah-Aerial-at-Sunrise-1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images6.alphacoders.com/304/thumb-1920-304314.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<br />
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary mx-auto d-block " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Book ticket to dubai
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Dubai Family Tour</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Woo! Welcome to Dubai
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Hurrah</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- scrollsy -->
+
+
+
+
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Dubai</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading3">Third</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading4">Fourth</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading5">fifth</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- first section -->
+
+<div class="section first-section">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+      <div class="col-12 col-lg-5">
+        <img class="rounded img-fluid" src="https://assets-news.housing.com/news/wp-content/uploads/2022/06/23202154/12-must-visit-places-in-Dubai-and-top-things-to-do-07.png" alt="Cat with Attitude">
+      </div>
+      <div class="col-12 col-lg-5">
+        <h2 id="scrollspyHeading1">Museum Of Future</h2>
+        <p>The tiger is the largest living cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange fur with a white underside. Here are some other fun facts about cats:</p>
+        <ul>
+          <li>Tigers are the largest wild cats in the world.</li>
+          <li>A tiger’s roar can be heard as far as three kilometres away.</li>
+          <li>At full speed, tigers can reach up to 65km/h.</li>
+          <li>No two tigers have the same stripes.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- second section -->
+
+<div class="section first-section">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+      <div class="col-12 col-lg-5 order-lg-last">
+        <img class="rounded img-fluid" src="https://img.traveltriangle.com/blog/wp-content/uploads/2020/02/Tourist-Places-In-Dubai_9th-jun.jpg" alt="Cat with Attitude">
+      </div>
+      <div class="col-12 col-lg-5 order-lg-first">
+        <h2 id="scrollspyHeading2">Atlantis, The Palm</h2>
+        <p>peacock, also called peafowl, any of three species of resplendent birds of the pheasant family, Phasianidae (order Galliformes). Strictly, the male is a peacock, and the female is a peahen. Here are some facts about Peacocks:</p>
+        <ul>
+          <li>Peacocks build their nests on the ground.</li>
+          <li>he large colorful “tail” they have become known for is called a “train.”</li>
+          <li>Peacocks Can Fly.</li>
+          <li>Peacocks are ominvorous.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- third section -->
+
+<div class="section first-section">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+      <div class="col-12 col-lg-5">
+        <img class="rounded img-fluid" src="https://www.engineeringdaily.net/wp-content/uploads/2016/11/palm-jumeirah.jpg" alt="Cat with Attitude">
+      </div>
+      <div class="col-12 col-lg-5">
+        <h2 id="scrollspyHeading3">Palm Jumeirah, The man-made island</h2>
+        <p>he Aquatic flower blooming most beautifully from the deepest and thick mud. It is a flower of spirituality and meaning as old as time. Here are some facts about Lotus:</p>
+        <ul>
+          <li>Lotus flower opens in the morning and closes at night.</li>
+          <li>Flower, young leaves, seeds and root are edible.</li>
+          <li>Lotus is worshiped and considered as sacred flower in Buddhism.</li>
+          <li>No two tigers have the same stripes.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- four section -->
+
+
+<div class="section first-section">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+      <div class="col-12 col-lg-5 order-lg-last">
+        <img class="rounded img-fluid" src="https://cdn.britannica.com/37/135437-050-A12461CC/Burj-Khalifa-world-Sheikh-Khalifah-ibn-Zayid-2010.jpg" alt="Cat with Attitude">
+      </div>
+      <div class="col-12 col-lg-5 order-lg-first">
+        <h2 id="scrollspyHeading4">Burj Khalifa</h2>
+        <p>Mangos are one of the most popular fruits in the world. They are the succulent, aromatic fruits of an evergreen tree. Here are some fun facts about Mangoes:</p>
+        <ul>
+          <li>Mangos were first grown in India over 5,000 years ago.</li>
+          <li>There are over 500 varieties throughout the world..</li>
+          <li>Less than 1% of the flowers will mature.</li>
+          <li>Lotus can survive thousands of year and even to revive after long period of dormancy..</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- five section -->
+
+
+<div class="section first-section">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+      <div class="col-12 col-lg-5">
+        <img class="rounded img-fluid" src="https://assets.traveltriangle.com/blog/wp-content/uploads/2018/02/shutterstock_425925883.jpg" alt="Cat with Attitude">
+      </div>
+      <div class="col-12 col-lg-5">
+        <h2 id="scrollspyHeading5">Miracle Garden Of Dubai</h2>
+        <p>A banyan (or 'banian') is a kind of fig. It usually starts life by growing on another plant as an epiphyte.. Here are some facts about Banyan:</p>
+        <ul>
+          <li>The largest banyan tree is in the Indian state of West Bengal..</li>
+          <li>Banyans are strangler figs. They grow from seeds that land on other trees. .</li>
+          <li>Banyans are the world’s biggest trees in terms of the area they cover.</li>
+          <li>There are even festivals dedicated to Banyan trees such as Vat Purnima.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<br/>
+<button type="button" class="btn btn-lg btn-danger mx-auto d-block" data-bs-toggle="popover" data-bs-title="Thanks for visiting Dubai" data-bs-content="Hope We will see you soon">A meassgae for you</button>
+<script>
+$(document).ready(function() {
+$('[data-bs-toggle="popover"]').popover()
+});
+</script>
+    </body>
+    </html>
